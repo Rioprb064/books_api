@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const cors = require("cosr")
+const cors = require("cors")
 const pool = require("./db")
 
 // ? middleware
@@ -84,4 +84,5 @@ app.post("/books", async(req,res) => {})
 app.put("/books/:id", async(req,res) => {})
 
 // ? Hapus buku
+
 app.delete("/books/:id", async(req,res) => {})
